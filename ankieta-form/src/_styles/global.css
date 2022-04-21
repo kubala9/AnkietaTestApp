@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Klavika";
+    font-style: normal;
+    font-weight: 400;
+    font-synthesis: style;
+    text-rendering: auto;
+    src: url("../assets/fonts/Klavika-Regular.otf"); /* IE9 Compat Modes */
+    src: local("Klavika"), local("Klavika"), url("../assets/fonts/Klavika-Regular.otf") format("opentype"); /* Safari, Android, iOS */
+}
+
+body {
+    font-family: "Klavika";
+    font-synthesis: style;
+    text-rendering: auto;
+}
+button:focus {
+    outline: none;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin-bottom: 0;
+    font-weight: bold;
+    line-height: 1.2;
+}
+h1 {
+    font-size: 44px;
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 24px;
+}
+h5 {
+    font-size: 16px;
+}
+h6 {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #696969;
+}
+p {
+    font-size: 16px;
+}
+label {
+    font-size: 14px;
+}
